@@ -1,0 +1,148 @@
+body{
+font-family: Arial;
+margin:0;
+background: linear-gradient(-45deg, #c6ecff, #e6f7ff, #b8e6ff, #d6f0ff);
+background-size: 400% 400%;
+animation: gradientMove 12s ease infinite;
+display:flex;
+flex-direction:column; 
+min-height: 1000px;
+}
+@keyframes gradientMove{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
+header{
+background:#8fd3ff;
+color:black;
+padding:20px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.nav-links a{
+color:black;
+text-decoration:none;
+}
+
+.hero{
+padding:40px;
+text-align:center;
+}
+
+.form-card {
+  background: #fff;                /* White card background */
+  padding: 30px;                   /* Space inside the card */
+  border-radius: 12px;             /* Rounded corners */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05); /* Subtle shadow */
+  max-width: 600px;                /* Optional: control card width */
+  margin: 0 auto;                  /* Center the card */
+  transition: transform 0.3s;      /* Optional: hover animation */
+}
+
+.form-card:hover {
+  transform: translateY(-3px);     /* Slight lift on hover for modern feel */
+}
+
+.form-card input,
+.form-card textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.form-card input:focus,
+.form-card textarea:focus {
+  border-color: #1e90ff;           /* Highlight on focus */
+  box-shadow: 0 0 5px rgba(30,144,255,0.3);
+}
+
+.form-card button {
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-card button:hover {
+  background: #1c86ee;
+}
+.project-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:1fr 1fr;
+gap:20px;
+padding:20px;
+}
+.project-card{
+border:1px solid #ccc;
+padding:20px;
+transition:transform 0.3s;
+}
+
+.project-card{
+border:1px solid #ccc;
+padding:20px;
+background:white;
+}
+.project-card:hover{
+transform:scale(1.05);
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#8fd3ff;
+color:black;
+}
+
+.menu-toggle{
+display:none;
+font-size:24px;
+cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.nav-links{
+display:none;
+flex-direction:column;
+}
+
+.nav-links.active{
+display:flex;
+}
+
+.menu-toggle{
+display:block;
+}
+}
