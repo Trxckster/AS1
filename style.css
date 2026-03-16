@@ -154,7 +154,21 @@ border-radius:8px;
   transform: scale(1.5);
 }
 
-
+body.report-paper{
+    background:#dcdcdc;
+    font-family: "Times New Roman", serif;
+}
+.report-paper {
+    background: white;
+    max-width: 800px;      /* maximum width like A4 */
+    width: 95%;            /* shrink to 95% of screen on mobile */
+    min-height: auto;      /* let height adjust naturally */
+    margin: 20px auto;
+    padding: 40px;         /* reduce padding on small screens */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    line-height: 1.6;
+    box-sizing: border-box;
+}
 footer{
 text-align:center;
 padding:20px;
