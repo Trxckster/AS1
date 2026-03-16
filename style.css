@@ -117,7 +117,17 @@ background:white;
 .project-card:hover{
 transform:scale(1.05);
 }
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
 
+.profile-pic:hover {
+    transform: scale(1.1);
+}
 footer{
 text-align:center;
 padding:20px;
