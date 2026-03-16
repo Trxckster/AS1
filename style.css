@@ -117,6 +117,7 @@ background:white;
 .project-card:hover{
 transform:scale(1.05);
 }
+
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -128,6 +129,20 @@ transform:scale(1.05);
 .profile-pic:hover {
     transform: scale(1.1);
 }
+
+
+
+.zoom-img {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.zoom-img:active {
+  transform: scale(1.5);
+}
+
+
 footer{
 text-align:center;
 padding:20px;
