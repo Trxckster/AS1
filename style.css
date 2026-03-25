@@ -52,17 +52,17 @@ text-align:center;
 }
 
 .form-card {
-  background: #fff;                /* White card background */
-  padding: 30px;                   /* Space inside the card */
-  border-radius: 12px;             /* Rounded corners */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05); /* Subtle shadow */
-  max-width: 600px;                /* Optional: control card width */
-  margin: 0 auto;                  /* Center the card */
-  transition: transform 0.3s;      /* Optional: hover animation */
+  background: #fff;                
+  padding: 30px;                   
+  border-radius: 12px;              
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05); 
+  max-width: 600px;                 
+  margin: 0 auto;                   
+  transition: transform 0.3s;       
 }
 
 .form-card:hover {
-  transform: translateY(-3px);     /* Slight lift on hover for modern feel */
+  transform: translateY(-3px);    
 }
 
 .form-card input,
@@ -78,7 +78,7 @@ text-align:center;
 
 .form-card input:focus,
 .form-card textarea:focus {
-  border-color: #1e90ff;           /* Highlight on focus */
+  border-color: #1e90ff;         
   box-shadow: 0 0 5px rgba(30,144,255,0.3);
 }
 
@@ -160,11 +160,11 @@ body.report-paper{
 }
 .report-paper {
     background: white;
-    max-width: 800px;      /* maximum width like A4 */
-    width: 95%;            /* shrink to 95% of screen on mobile */
-    min-height: auto;      /* let height adjust naturally */
+    max-width: 800px;      
+    width: 95%;            
+    min-height: auto;      
     margin: 20px auto;
-    padding: 40px;         /* reduce padding on small screens */
+    padding: 40px;       
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     line-height: 1.6;
     box-sizing: border-box;
@@ -172,10 +172,10 @@ body.report-paper{
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
-  border-radius: 10px; /* optional nice styling */
+  border-radius: 10px; 
 }
 
 .video-container iframe {
